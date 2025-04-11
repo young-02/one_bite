@@ -18,6 +18,7 @@ const List = ({ todos, onUpdate, onDelete }) => {
   };
 
   const filteredData = getFilteredData();
+
   return (
     <div className="List">
       <h4>Todo List📋</h4>
