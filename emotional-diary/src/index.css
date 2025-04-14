@@ -8,6 +8,7 @@ body {
   margin: 0;
   width: 100%;
   background-color: rgb(246, 246, 246);
+  display: flex;
 }
 
 #root {
@@ -20,6 +21,8 @@ body {
   box-shadow: rgba(100, 100, 100, 0.2) 0 0 29px 0;
   padding: 0 20px;
 }
-body {
+
+* {
+  /* button select input 등 모든 태그에 버튼 적용 하기 위해서 *을 활용하였음. */
   font-family: "NanumPenScript";
 }
